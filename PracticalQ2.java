@@ -25,11 +25,11 @@ class PracticalQ2
             display(A);
             index=0;
             in=bsort(in);
-            for(int i=0;i<M;i++)
+            for(int i=1;i<M-1;i++)
             {
-                for(int j=0;j<M;j++)
+                for(int j=1;j<M-1;j++)
                 {
-                    if((i!=0&&i!=M-1) && (j!=0&&j!=M-1)) A[i][j]=in[index++];
+                    A[i][j]=in[index++];
                 }
             }
             System.out.println("\nREARRANGED MATRIX");
