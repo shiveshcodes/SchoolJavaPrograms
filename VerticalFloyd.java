@@ -1,4 +1,4 @@
-package JavaPrograms;
+
 import java.io.*;
 class VerticalFloyd
 {
